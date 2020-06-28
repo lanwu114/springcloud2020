@@ -1,0 +1,775 @@
+2020-06-28 11:12:10.580 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:12:11.418 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 13016 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 11:12:11.424 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 11:12:11.514 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 11:12:11.516 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 11:12:13.325 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 11:12:14.111 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 11:12:14.127 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:12:14.128 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 11:12:14.129 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 11:12:14.282 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 11:12:14.283 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2766 ms
+2020-06-28 11:12:14.566 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 11:12:14.789 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 11:12:15.536 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 11:12:16.039 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 11:12:16.047 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 11:12:16.175 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:12:16.216 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 11:12:16.221 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.676 seconds (JVM running for 11.675)
+2020-06-28 11:12:16.842 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 11:12:16.842 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 11:12:16.861 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 18 ms
+2020-06-28 11:12:38.014 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=1, serial=123)
+2020-06-28 11:16:50.444 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:16:51.186 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 13336 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 11:16:51.192 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 11:16:51.270 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 11:16:51.271 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 11:16:52.968 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 11:16:53.769 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 11:16:53.785 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:16:53.786 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 11:16:53.787 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 11:16:53.979 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 11:16:53.979 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2708 ms
+2020-06-28 11:16:54.280 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 11:16:54.511 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 11:16:55.365 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 11:16:55.832 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 11:16:55.840 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 11:16:55.968 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:16:56.014 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 11:16:56.019 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.606 seconds (JVM running for 11.49)
+2020-06-28 11:16:57.483 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 11:16:57.484 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 11:16:57.499 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 15 ms
+2020-06-28 11:17:01.352 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=1, serial=123)
+2020-06-28 11:20:35.410 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:22:00.903 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:22:01.667 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 9764 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 11:22:01.672 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 11:22:01.779 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 11:22:01.780 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 11:22:03.725 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 11:22:04.543 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 11:22:04.561 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:22:04.562 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 11:22:04.563 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 11:22:04.730 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 11:22:04.731 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2949 ms
+2020-06-28 11:22:05.037 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 11:22:05.276 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 11:22:06.192 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 11:22:06.719 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 11:22:06.728 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 11:22:06.889 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:22:06.935 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 11:22:06.941 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 6.069 seconds (JVM running for 11.759)
+2020-06-28 11:22:08.466 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 11:22:08.467 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 11:22:08.487 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 20 ms
+2020-06-28 11:22:19.164 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=1, serial=123)
+2020-06-28 11:44:46.521 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:44:47.280 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 3844 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 11:44:47.286 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 11:44:47.362 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 11:44:47.362 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 11:44:48.957 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 11:44:49.782 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 11:44:49.798 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:44:49.799 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 11:44:49.799 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 11:44:49.965 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 11:44:49.966 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2602 ms
+2020-06-28 11:44:50.229 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 11:44:50.465 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 11:44:51.216 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 11:44:51.667 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 11:44:51.676 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 11:44:51.801 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:44:51.842 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 11:44:51.847 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.357 seconds (JVM running for 11.543)
+2020-06-28 11:44:52.417 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 11:44:52.418 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 11:44:52.439 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 21 ms
+2020-06-28 11:45:01.868 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 11:47:02.250 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=6, serial=124asd)
+2020-06-28 11:53:38.155 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:53:38.866 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 15012 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 11:53:38.871 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 11:53:38.951 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 11:53:38.951 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 11:53:40.590 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 11:53:41.367 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 11:53:41.383 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:53:41.384 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 11:53:41.385 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 11:53:41.561 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 11:53:41.562 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2610 ms
+2020-06-28 11:53:41.830 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 11:53:42.039 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 11:53:42.835 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 11:53:43.315 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 11:53:43.331 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 11:53:43.478 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:53:43.519 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 11:53:43.524 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.397 seconds (JVM running for 11.01)
+2020-06-28 11:53:43.751 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 11:53:43.752 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 11:53:43.764 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 12 ms
+2020-06-28 11:59:49.721 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 11:59:50.466 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 5668 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 11:59:50.471 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 11:59:50.597 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 11:59:50.598 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 11:59:52.150 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 11:59:52.930 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 11:59:52.946 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:59:52.947 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 11:59:52.948 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 11:59:53.099 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 11:59:53.100 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2502 ms
+2020-06-28 11:59:53.367 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 11:59:53.575 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 11:59:54.396 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 11:59:55.397 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 11:59:55.406 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 11:59:55.535 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 11:59:55.575 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 11:59:55.580 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.887 seconds (JVM running for 11.687)
+2020-06-28 11:59:56.412 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 11:59:56.413 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 11:59:56.429 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 16 ms
+2020-06-28 12:01:29.803 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 12:21:02.370 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 12:21:03.144 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 2764 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 12:21:03.149 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 12:21:03.231 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 12:21:03.232 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 12:21:04.800 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 12:21:05.588 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 12:21:05.604 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 12:21:05.605 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 12:21:05.606 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 12:21:05.747 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 12:21:05.748 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2514 ms
+2020-06-28 12:21:05.990 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 12:21:06.191 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 12:21:06.861 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 12:21:07.280 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 12:21:07.290 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 12:21:07.428 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 12:21:07.491 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 12:21:07.497 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.157 seconds (JVM running for 10.757)
+2020-06-28 12:21:08.792 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 12:21:08.792 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 12:21:08.808 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 16 ms
+2020-06-28 12:25:45.140 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 12:25:45.910 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 9288 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 12:25:45.915 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 12:25:46.025 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 12:25:46.025 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 12:25:47.589 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 12:25:48.472 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 12:25:48.496 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 12:25:48.498 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 12:25:48.500 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 12:25:48.721 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 12:25:48.722 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2696 ms
+2020-06-28 12:25:49.016 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 12:25:49.209 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 12:25:49.916 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 12:25:50.430 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 12:25:50.438 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 12:25:50.565 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 12:25:50.604 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 12:25:50.609 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.497 seconds (JVM running for 10.989)
+2020-06-28 12:25:51.648 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 12:25:51.648 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 12:25:51.664 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 16 ms
+2020-06-28 12:26:50.481 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 12:27:16.738 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 7272 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 12:27:16.743 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 12:27:16.799 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 12:27:16.799 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 12:27:17.979 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 12:27:18.336 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 12:27:18.347 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 12:27:18.348 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 12:27:18.348 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 12:27:18.515 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 12:27:18.516 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1715 ms
+2020-06-28 12:27:18.702 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 12:27:18.890 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2020-06-28 12:30:16.000 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 12:30:17.425 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 2180 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 12:30:17.430 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 12:30:17.545 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 12:30:17.545 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 12:30:20.347 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 12:30:21.393 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 12:30:21.450 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 12:30:21.451 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 12:30:21.452 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 12:30:21.694 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 12:30:21.694 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4148 ms
+2020-06-28 12:30:22.047 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 12:30:22.448 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2020-06-28 12:31:23.264 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 12:31:24.567 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 7492 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 12:31:24.572 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 12:31:24.675 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 12:31:24.676 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 12:31:27.386 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 12:31:28.410 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 12:31:28.464 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 12:31:28.465 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 12:31:28.466 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 12:31:28.710 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 12:31:28.711 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4035 ms
+2020-06-28 12:31:29.047 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 12:31:29.506 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2020-06-28 12:32:15.896 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 12:32:17.210 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 10912 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 12:32:17.215 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 12:32:17.319 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 12:32:17.319 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 12:32:20.146 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 12:32:21.192 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 12:32:21.251 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 12:32:21.252 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 12:32:21.253 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 12:32:21.531 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 12:32:21.532 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4212 ms
+2020-06-28 12:32:21.873 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 12:32:22.277 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2020-06-28 13:02:18.800 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 13:02:20.265 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 4376 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 13:02:20.271 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 13:02:20.386 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 13:02:20.387 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 13:02:23.169 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 13:02:24.218 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 13:02:24.293 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 13:02:24.294 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 13:02:24.295 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 13:02:24.541 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 13:02:24.542 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4155 ms
+2020-06-28 13:02:24.888 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 13:02:25.294 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Stopping service [Tomcat]
+2020-06-28 13:05:48.373 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 13:05:49.787 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 16296 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 13:05:49.793 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 13:05:49.902 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 13:05:49.902 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 13:05:52.714 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 13:05:52.997 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 13:05:52.999 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 13:05:52.999 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 13:05:53.261 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 13:05:53.262 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3359 ms
+2020-06-28 13:05:54.417 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 13:05:55.055 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 13:05:55.158 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 13:05:55.207 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 13:05:55.213 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 6.873 seconds (JVM running for 14.213)
+2020-06-28 13:05:56.152 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 13:05:56.152 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 13:05:56.165 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 12 ms
+2020-06-28 13:06:29.877 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 3296 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 13:06:29.881 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 13:06:29.927 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 13:06:29.927 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 13:06:31.082 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 13:06:31.403 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 13:06:31.413 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 13:06:31.414 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 13:06:31.415 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 13:06:31.590 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 13:06:31.590 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1663 ms
+2020-06-28 13:06:31.777 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 13:06:31.953 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 13:06:32.522 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 13:06:32.855 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 13:06:32.862 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 13:06:32.964 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 13:06:32.990 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 13:06:32.994 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 3.593 seconds (JVM running for 5.594)
+2020-06-28 13:06:34.569 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 13:06:34.569 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 13:06:34.577 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 7 ms
+2020-06-28 13:07:32.262 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 13:07:32.350 [INFO ] com.liuyang.springcloud.controller.OrderController.create - 成功CommonResult(code=200, message=插入数据库成功, data=1)
+2020-06-28 13:08:36.935 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 13:08:37.691 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 8964 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 13:08:37.696 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 13:08:37.775 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 13:08:37.775 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 13:08:39.629 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 13:08:39.672 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 13:08:39.673 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 13:08:39.674 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 13:08:40.030 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 13:08:40.031 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2255 ms
+2020-06-28 13:08:40.654 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 13:08:41.043 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 13:08:41.139 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 13:08:41.179 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 13:08:41.185 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 4.279 seconds (JVM running for 9.821)
+2020-06-28 13:08:41.288 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 13:08:41.288 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 13:08:41.298 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 9 ms
+2020-06-28 13:09:20.740 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 13:09:20.775 [INFO ] com.liuyang.springcloud.controller.OrderController.create - 成功CommonResult(code=200, message=插入数据库成功, data=1)
+2020-06-28 17:08:03.385 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:08:04.131 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 7284 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:08:04.136 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:08:04.220 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:08:04.220 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:08:06.121 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:08:06.148 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:08:06.149 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:08:06.150 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:08:06.504 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:08:06.505 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2284 ms
+2020-06-28 17:08:07.131 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:08:07.575 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:08:07.587 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:08:07.700 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:08:07.739 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:08:07.744 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 4.388 seconds (JVM running for 9.944)
+2020-06-28 17:08:09.047 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:08:09.047 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:08:09.058 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 10 ms
+2020-06-28 17:08:13.077 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:08:14.515 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 15904 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:08:14.520 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:08:14.637 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:08:14.638 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:08:17.403 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:08:18.418 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:08:18.471 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:08:18.472 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:08:18.472 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:08:18.751 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:08:18.751 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4113 ms
+2020-06-28 17:08:19.103 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:08:19.381 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:08:20.693 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:08:21.332 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:08:21.473 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:08:21.521 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:08:21.527 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 8.486 seconds (JVM running for 16.362)
+2020-06-28 17:08:22.780 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:08:22.781 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:08:22.796 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 15 ms
+2020-06-28 17:18:01.134 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:18:02.562 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 5256 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:18:02.568 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:18:02.692 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:18:02.693 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:18:05.556 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:18:06.475 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:18:06.528 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:18:06.529 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:18:06.530 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:18:06.797 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:18:06.798 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4104 ms
+2020-06-28 17:18:07.227 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:18:07.490 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:18:08.144 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:18:08.816 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:18:08.891 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 15860 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:18:08.896 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:18:08.975 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:18:08.976 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:18:09.392 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:18:09.400 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:18:09.528 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:18:09.572 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:18:09.578 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 8.476 seconds (JVM running for 15.945)
+2020-06-28 17:18:10.053 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:18:10.054 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:18:10.066 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 12 ms
+2020-06-28 17:18:10.746 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:18:10.774 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:18:10.775 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:18:10.775 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:18:11.083 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:18:11.084 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2108 ms
+2020-06-28 17:18:11.690 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:18:12.120 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:18:12.218 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:18:12.256 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:18:12.261 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 4.156 seconds (JVM running for 10.099)
+2020-06-28 17:18:13.046 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:18:13.046 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:18:13.057 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 9 ms
+2020-06-28 17:18:28.073 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：null
+2020-06-28 17:18:35.999 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：null
+2020-06-28 17:18:38.534 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：null
+2020-06-28 17:18:41.508 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：null
+2020-06-28 17:21:43.342 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:21:44.101 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 12936 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:21:44.108 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:21:44.186 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:21:44.186 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:21:46.072 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:21:46.112 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:21:46.114 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:21:46.115 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:21:46.505 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:21:46.506 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2319 ms
+2020-06-28 17:21:47.291 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:21:47.655 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:21:47.662 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:21:47.753 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:21:47.791 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:21:47.795 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 4.501 seconds (JVM running for 10.541)
+2020-06-28 17:21:48.193 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:21:48.193 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:21:48.208 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 15 ms
+2020-06-28 17:21:48.486 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:21:49.885 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 14396 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:21:49.890 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:21:49.994 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:21:49.995 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:21:52.728 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:21:53.845 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:21:53.910 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:21:53.911 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:21:53.912 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:21:54.163 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:21:54.163 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4168 ms
+2020-06-28 17:21:54.500 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:21:54.767 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:21:56.067 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:21:56.677 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:21:56.809 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:21:56.856 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:21:56.863 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 8.412 seconds (JVM running for 16.49)
+2020-06-28 17:21:57.632 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:21:57.633 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:21:57.651 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 18 ms
+2020-06-28 17:22:10.626 [INFO ] com.liuyang.springcloud.controller.OrderController.getPayment - ididididiid:::::null
+2020-06-28 17:22:11.191 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：null
+2020-06-28 17:28:48.152 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:28:49.779 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 5976 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:28:49.787 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:28:49.908 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:28:49.909 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:28:52.584 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:28:52.614 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:28:53.423 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 7420 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:28:53.428 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:28:53.511 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:28:53.512 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:28:53.665 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:28:53.728 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:28:53.729 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:28:53.730 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:28:53.997 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:28:53.998 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4088 ms
+2020-06-28 17:28:54.409 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:28:54.745 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:28:55.579 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:28:55.605 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:28:55.606 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:28:55.607 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:28:55.746 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:28:55.747 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2233 ms
+2020-06-28 17:28:56.032 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:28:56.548 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:28:56.602 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:28:56.611 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:28:56.737 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:28:56.786 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:28:56.793 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 8.675 seconds (JVM running for 16.764)
+2020-06-28 17:28:56.929 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:28:57.014 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:28:57.050 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:28:57.054 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 4.469 seconds (JVM running for 10.407)
+2020-06-28 17:28:57.870 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:28:57.870 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:28:57.895 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 25 ms
+2020-06-28 17:28:58.273 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:28:58.273 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:28:58.283 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 10 ms
+2020-06-28 17:29:02.065 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 17:29:02.181 [INFO ] com.liuyang.springcloud.controller.OrderController.create - 成功CommonResult(code=200, message=插入数据库成功, data=1)
+2020-06-28 17:29:19.799 [INFO ] com.liuyang.springcloud.controller.OrderController.getPayment - ididididiid:::::null
+2020-06-28 17:29:19.902 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：null
+2020-06-28 17:33:00.405 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:33:01.948 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 15396 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:33:01.953 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:33:02.069 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:33:02.070 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:33:04.917 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:33:05.923 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:33:05.984 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:33:05.986 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:33:05.987 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:33:06.294 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:33:06.295 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4224 ms
+2020-06-28 17:33:06.704 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:33:06.957 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:33:07.657 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:33:08.168 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:33:08.580 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 12108 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:33:08.588 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:33:08.723 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:33:08.723 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:33:08.862 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:33:08.870 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:33:09.016 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:33:09.074 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:33:09.080 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 8.718 seconds (JVM running for 16.275)
+2020-06-28 17:33:10.740 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:33:10.740 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:33:10.754 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 12 ms
+2020-06-28 17:33:10.891 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:33:10.922 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:33:10.923 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:33:10.924 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:33:11.091 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:33:11.091 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2367 ms
+2020-06-28 17:33:11.918 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:33:12.349 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:33:12.464 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:33:12.511 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:33:12.519 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 4.891 seconds (JVM running for 10.783)
+2020-06-28 17:33:12.585 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:33:12.585 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:33:12.597 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 11 ms
+2020-06-28 17:40:46.999 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=1, serial=123)
+2020-06-28 17:40:51.533 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=1, serial=123)
+2020-06-28 17:40:51.569 [INFO ] com.liuyang.springcloud.controller.OrderController.getPayment - 成功CommonResult(code=200, message=查询数据成功, data={id=1, serial=123})
+2020-06-28 17:44:27.218 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:44:28.063 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 16396 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:44:28.068 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:44:28.150 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:44:28.150 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:44:29.971 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:44:30.773 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:44:30.792 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:44:30.793 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:44:30.794 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:44:30.944 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:44:30.945 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2793 ms
+2020-06-28 17:44:31.216 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:44:31.405 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:44:32.087 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:44:32.498 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:44:32.506 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:44:32.622 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:44:32.658 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:44:32.662 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.475 seconds (JVM running for 11.329)
+2020-06-28 17:44:33.972 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:44:33.972 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:44:33.995 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 22 ms
+2020-06-28 17:44:35.480 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:44:36.986 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 6236 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:44:36.993 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:44:37.127 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:44:37.127 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:44:40.264 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:44:40.332 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:44:40.333 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:44:40.334 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:44:40.563 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:44:40.563 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3435 ms
+2020-06-28 17:44:41.371 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:44:41.970 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:44:42.069 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:44:42.117 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:44:42.124 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 6.802 seconds (JVM running for 14.374)
+2020-06-28 17:44:42.968 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:44:42.969 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:44:42.981 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 12 ms
+2020-06-28 17:44:50.606 [INFO ] com.liuyang.springcloud.controller.PaymentController.getPaymentById - ********获取结果：Payment(id=1, serial=123)
+2020-06-28 17:44:50.737 [INFO ] com.liuyang.springcloud.controller.OrderController.getPayment - 成功CommonResult(code=200, message=查询数据成功, data={id=1, serial=123})
+2020-06-28 17:45:11.856 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 17:45:11.861 [INFO ] com.liuyang.springcloud.controller.OrderController.create - 成功CommonResult(code=200, message=插入数据库成功, data=1)
+2020-06-28 17:45:50.445 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:45:51.939 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 1364 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:45:51.945 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:45:52.061 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:45:52.061 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:45:55.393 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:45:55.467 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:45:55.469 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:45:55.469 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:45:55.734 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:45:55.735 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3673 ms
+2020-06-28 17:45:56.653 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:45:57.228 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:45:57.330 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:45:57.378 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:45:57.384 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 6.975 seconds (JVM running for 14.358)
+2020-06-28 17:45:58.493 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:45:58.493 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:45:58.507 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 13 ms
+2020-06-28 17:46:12.753 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 17:46:12.799 [INFO ] com.liuyang.springcloud.controller.OrderController.create - 成功CommonResult(code=200, message=插入数据库成功, data=1)
+2020-06-28 17:46:55.272 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:46:56.756 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 1120 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:46:56.762 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:46:56.878 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:46:56.879 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:47:00.210 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:47:00.286 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:47:00.287 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:47:00.288 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:47:00.542 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:47:00.543 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3664 ms
+2020-06-28 17:47:01.441 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:47:02.085 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:47:02.094 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:47:02.262 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:47:02.303 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:47:02.309 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 7.081 seconds (JVM running for 14.666)
+2020-06-28 17:47:03.450 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:47:03.451 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:47:03.467 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 16 ms
+2020-06-28 17:47:08.996 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:47:09.737 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 6204 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:47:09.742 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:47:09.820 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:47:09.820 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:47:11.573 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:47:12.345 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:47:12.361 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:47:12.362 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:47:12.363 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:47:12.563 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:47:12.564 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2743 ms
+2020-06-28 17:47:12.851 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:47:13.084 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:47:13.929 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:47:14.444 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:47:14.579 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:47:14.621 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:47:14.626 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.671 seconds (JVM running for 11.44)
+2020-06-28 17:47:14.896 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:47:14.897 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:47:14.910 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 13 ms
+2020-06-28 17:50:17.698 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 17:50:17.783 [INFO ] com.liuyang.springcloud.controller.OrderController.create - 成功CommonResult(code=200, message=插入数据库成功, data=1)
+2020-06-28 17:51:55.961 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
+2020-06-28 17:59:13.172 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 15820 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:59:13.176 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:59:13.222 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:59:13.222 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:59:14.464 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:59:14.486 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:59:14.486 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:59:14.487 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:59:14.597 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:59:14.597 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1375 ms
+2020-06-28 17:59:15.041 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:59:15.296 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:59:15.302 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:59:15.368 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:59:15.391 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:59:15.394 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 2.678 seconds (JVM running for 4.57)
+2020-06-28 17:59:15.908 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:59:15.908 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:59:15.914 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 6 ms
+2020-06-28 17:59:35.947 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 4020 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:59:35.951 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:59:35.996 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:59:35.997 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:59:37.148 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:59:37.506 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:59:37.516 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:59:37.517 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:59:37.518 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:59:37.715 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:59:37.716 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1719 ms
+2020-06-28 17:59:47.362 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:59:48.138 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 13748 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:59:48.144 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:59:48.221 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:59:48.221 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:59:49.901 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 17:59:50.865 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 17:59:50.888 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:59:50.891 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:59:50.892 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:59:51.056 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:59:51.057 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2836 ms
+2020-06-28 17:59:51.302 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 17:59:51.493 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 17:59:52.199 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:59:52.239 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 17:59:52.672 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 17:59:52.680 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:59:52.807 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 17:59:52.871 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 17:59:52.876 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.548 seconds (JVM running for 11.568)
+2020-06-28 17:59:53.646 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 15888 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 17:59:53.651 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 17:59:53.764 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 17:59:53.764 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 17:59:53.907 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:59:53.908 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:59:53.924 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 15 ms
+2020-06-28 17:59:56.892 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 17:59:56.966 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 17:59:56.967 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 17:59:56.968 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 17:59:57.224 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 17:59:57.225 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3460 ms
+2020-06-28 17:59:58.145 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 17:59:58.730 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 17:59:58.830 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 17:59:58.876 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 17:59:58.882 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 6.674 seconds (JVM running for 14.554)
+2020-06-28 17:59:59.470 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 17:59:59.470 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 17:59:59.484 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 13 ms
+2020-06-28 18:18:30.646 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 18:18:31.414 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting PaymentMain8001 on DESKTOP-L1SE647 with PID 14756 (F:\workspace\idea\springcloud2020\cloud-provider-payment8001\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 18:18:31.422 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 18:18:31.509 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 18:18:31.509 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 18:18:33.290 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-28 18:18:34.009 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8001 (http)
+2020-06-28 18:18:34.025 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-28 18:18:34.026 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 18:18:34.027 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 18:18:34.200 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 18:18:34.201 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2691 ms
+2020-06-28 18:18:34.478 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource - Init DruidDataSource
+2020-06-28 18:18:34.673 [INFO ] com.alibaba.druid.pool.DruidDataSource.init - {dataSource-1} inited
+2020-06-28 18:18:35.594 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 18:18:36.026 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2020-06-28 18:18:36.033 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 18:18:36.144 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-28 18:18:36.182 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-28 18:18:36.187 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started PaymentMain8001 in 5.584 seconds (JVM running for 11.393)
+2020-06-28 18:18:37.195 [INFO ] org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent - Restart disabled due to an agent-based reloader being active
+2020-06-28 18:18:37.271 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 18:18:37.272 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 18:18:37.291 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 19 ms
+2020-06-28 18:18:38.663 [INFO ] org.springframework.boot.StartupInfoLogger.logStarting - Starting OrderMain80 on DESKTOP-L1SE647 with PID 11804 (F:\workspace\idea\springcloud2020\cloud-consumer-order80\target\classes started by LenoWillow in F:\workspace\idea\springcloud2020)
+2020-06-28 18:18:38.669 [INFO ] org.springframework.boot.SpringApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2020-06-28 18:18:38.787 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-28 18:18:38.788 [INFO ] org.springframework.boot.logging.DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-28 18:18:41.842 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 80 (http)
+2020-06-28 18:18:42.117 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-80"]
+2020-06-28 18:18:42.118 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting service [Tomcat]
+2020-06-28 18:18:42.119 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-28 18:18:42.380 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2020-06-28 18:18:42.381 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3593 ms
+2020-06-28 18:18:43.343 [INFO ] org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-28 18:18:44.078 [INFO ] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-28 18:18:44.186 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Starting ProtocolHandler ["http-nio-80"]
+2020-06-28 18:18:44.232 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 80 (http) with context path ''
+2020-06-28 18:18:44.238 [INFO ] org.springframework.boot.StartupInfoLogger.logStarted - Started OrderMain80 in 7.099 seconds (JVM running for 14.666)
+2020-06-28 18:18:44.916 [INFO ] org.apache.juli.logging.DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-28 18:18:44.916 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2020-06-28 18:18:44.930 [INFO ] org.springframework.web.servlet.FrameworkServlet.initServletBean - Completed initialization in 13 ms
+2020-06-28 18:18:51.317 [INFO ] com.liuyang.springcloud.controller.PaymentController.create - ********插入结果：1
